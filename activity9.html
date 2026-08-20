@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<form action="save.html" method="POST">
+<fieldset>
+<legend>Personal Information</legend>
+<label>First Name</label>
+<input type="text" placeholder="Enter First Name" name="firstname" required><br>
+
+<label>Last Name</label>
+<input type="text" placeholder="Enter Last name" name="lastname" required><br>
+
+<label>Middle Initial</label>
+<input type="text" placeholder="Enter Middle Initial"  name="middleinitial"required><br>
+
+ <label>Email Address</label>
+    <input type="email" placeholder="Enter Email Address" name="uname"required><br>
+    
+ <label>Password</label>
+ <input type="pass" placeholder="e.g. 16" name="pass"required>
+ 
+ <label>Birthday</label>
+ <input type="date" name="birthday"required><br>
+ 
+  <label>Contact Number</label>
+    <input type="number" placeholder="09XXXXXXXXX" name="contactnumber"required><br>
+ </fieldset>
+ </form>
+ 
+ <form>
+   <fieldset>
+    <legend>Student Information</legend>
+     <label>Student ID</label>
+    <input type="text" placeholder="e.g 2526M00242"name="studentid"required>
+     <label>Grade Level</label>
+     <select name="gradelevel">
+       <option>Grade 11</option>
+       <option>Grade 12</option>
+     </select>
+     
+     <label>Strand</label>
+     <select name="strand">
+       <option>Cpnt</option>
+       <option>Ss</option>
+       <option>Bma</option>
+       <option>Ha</option>
+     </select>
+    </fieldset>
+    </form>
+    
+  <form>
+    <fieldset>
+      <legend>Additional Information</legend>
+      <label>Gender</label>
+       <input type="radio" name="gender">Male
+       <input type="radio"name="gender">Female
+       <input type="radio"name="gender">Prefer not to say
+       <br>
+      
+      <label>Hobbies</label>
+      <input type="checkbox"name="hobbies">Reading
+      <input type="checkbox"name="hobbies">Coding
+      <input type="checkbox"name="hobbies">Playing Sports
+      <input type="checkbox"name="hobbies">Watching Movies
+      <input type="checkbox"name="hobbies">Playing Games
+      <input type="checkbox"name="hobbies">Music
+      <br>
+      <label>Complete Address</label><br>
+      <textarea rows="10" cols="30"name="address"></textarea>
+       <button>Submit</button>
+       <button type="reset">Reset</button>
+      </fieldset>
+  </form>
+    
+
+    
+  </body>
+</html>
+
+
